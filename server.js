@@ -28,3 +28,7 @@ app.get('/tip/:total/:tipPercentage', (req, res) => {
 
 })
 
+//====Magic 8 ball
+app.get('/magic/:question', (req,res) => {
+    const question = 
+})
